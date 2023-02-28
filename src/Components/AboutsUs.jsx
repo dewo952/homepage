@@ -1,10 +1,9 @@
 import React from "react";
 import "../Styles/aboutus.css";
 import { BsArrowRightCircle } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 
 const AboutsUs = () => {
-
   return (
     <>
       <div className="abouts__container">
@@ -19,9 +18,9 @@ const AboutsUs = () => {
         </div>
         <div className="aboutus__button">
           <h4>What we do</h4>
-          <a href="/about">
+          <Link to="/about">
             <BsArrowRightCircle size={30} />
-          </a>
+          </Link>
         </div>
       </div>
     </>

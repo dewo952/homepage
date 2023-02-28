@@ -6,4 +6,4 @@ const AboutsUsContend = () => {
   )
 }
 
-export default AboutsUsContend
+export default AboutsUsContend 

@@ -1,27 +1,21 @@
 import React from "react";
 import "../Styles/Hero.css";
+
 import homevideo from "../Assets/homevideo1.mp4";
-import { RiMenu5Fill } from "react-icons/ri";
-import logo from "../Assets/logo.webp";
+import NavBar from "./Navbar";
 
 function HeroBanner() {
   return (
     <>
       <div className="main">
-        <div className="overlay"></div>
+        <div className="overlay" />
         <video src={homevideo} autoPlay loop muted />
         <div className="content">
-          <div className="head">
-            <a href="/#">
-              <img src={logo} alt="" />
-            </a>
-
-            <div className="menu__button">
-              <a href className="menu">
-                <RiMenu5Fill size={35} />
-              </a>
-            </div>
-          </div>
+          <h1>
+            Redefine the Way
+            <br />
+            You Do Business!
+          </h1>
         </div>
       </div>
     </>

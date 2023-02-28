@@ -1,24 +1,20 @@
-import AboutsUs from "./Components/AboutsUs";
-import ContactUs from "./Components/ContactUs";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
-import HeroBanner from "./Components/HeroBanner";
-import Industries from "./Components/Industries";
-import ServicesContend from "./Components/ServicesContend";
-
+import NavBar from "./Components/Navbar";
+import AboutPage from "./Pages/AboutPage";
+import ContactPage from "./Pages/ContactPage";
+import Homepage from "./Pages/Homepage";
 
 function App() {
   return (
     <>
-      <div>
-        <HeroBanner />
-        <Industries />
-        <ServicesContend />
-        <AboutsUs />
-        <ContactUs />
-        <Footer />
-      </div>
-
-
+    <NavBar/>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

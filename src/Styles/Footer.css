@@ -1,3 +1,7 @@
+.footer__border{
+  border-top: .5px solid gray;
+}
+
 .container {
   margin: 5rem;
   padding: 1rem;
@@ -6,6 +10,8 @@
   font-family: "Courier New", Courier, monospace;
   text-align: justify;
   justify-content: space-between;
+
+  
 }
 
 .sub__container {
@@ -26,11 +32,11 @@ h1 {
 
 .contact__us a {
   text-decoration: none;
-  color: #fff;
+  color: #fff; 
   font-size: 23px;
   position: relative;
 }
-.contact__us h2 {
+.contact__us h2 { 
   font-weight: lighter;
 }
 

@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Styles/Footer.css";
 const Footer = () => {
   return (
-    <> 
+    <>
+    <div className="footer__border"/>
       <div className="container">
         {/* Left Side */}
         <div className="sub__container">
@@ -10,9 +12,9 @@ const Footer = () => {
             <h1 className="heading">Need Our Service?</h1>
 
             <div className="contact__us">
-              <a href="mailto:info@rgs-tech.com">
+              <Link to="/contact">
                 <h2>Contact Us</h2>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -50,7 +52,6 @@ const Footer = () => {
               <a href="mailto:info@rgs-tech.com">Mail</a>
             </li>
           </ul>
-        
         </div>
       </div>
     </>

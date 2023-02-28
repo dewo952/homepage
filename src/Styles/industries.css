@@ -1,0 +1,36 @@
+.industries__container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f5f5f5;
+  }
+  .industries__sub_container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid__section {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+  
+  .industries__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .industries__logo img {
+    width: 60%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .grid__section {
+      grid-auto-flow: row;
+    }
+    .industries__logo img {
+      width: 100%;
+    }
+  }
+  

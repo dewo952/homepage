@@ -34,7 +34,7 @@ const ContactUs = () => {
                   </div>
                   <div className="contact__details">
                     <span>Email</span>
-                    <span>info@rgs-tech.com</span>
+                     <span>info@rgs-tech.com</span>
                   </div>
                 </div>
 
