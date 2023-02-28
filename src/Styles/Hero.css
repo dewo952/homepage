@@ -1,0 +1,56 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.head {
+  position: absolute;
+  width: 80%;
+  height: 8%;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  border: 1px solid;
+  border-top: 2rem;
+  border-color: transparent;
+
+}
+.menu__button {
+  width: 20%;
+  height: 8%;
+  margin-left: 200px;
+}
+img {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+  color: white;
+  margin: 1rem;
+  margin-top: 0.5rem;
+  align-items: center;
+}

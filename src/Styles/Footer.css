@@ -1,0 +1,117 @@
+.container {
+  margin: 5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
+  justify-content: space-between;
+}
+
+.sub__container {
+  text-align: justify;
+}
+
+.margin__space {
+  margin-bottom: 10rem;
+  margin-top: -4rem;
+}
+h1 {
+  position: relative;
+  font-size: 69px;
+  bottom: -3rem;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contact__us a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  position: relative;
+}
+.contact__us h2 {
+  font-weight: lighter;
+}
+
+.contact__us a::after {
+  content: "";
+  position: absolute;
+  width: 175px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: gray;
+  transform-origin: bottom right;
+  transition: transform 0.8s ease-in-out;
+}
+
+.contact__us a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.email__button {
+  text-decoration: none;
+}
+
+.email__button h4 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.email__button:hover {
+  color: #3e3e3e;
+}
+
+.company__address {
+  color: gray;
+}
+
+.privacy__policy {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social__links {
+  margin-right: 15rem;
+  margin-top: 20rem;
+  margin-bottom: -8rem;
+}
+.social__links2 {
+  list-style-type: none;
+  float: right;
+}
+.social__links3 {
+  float: left;
+  padding: 3rem;
+}
+
+.social__links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: x-large;
+}
+
+.social__links a:hover {
+  color: #3e3e3e;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+    bottom: 1px;
+  }
+  .contact__us h2 {
+    font-size: 25px;
+    font-weight: 200;
+  }
+  .email__button {
+    text-decoration: none;
+  }
+}
