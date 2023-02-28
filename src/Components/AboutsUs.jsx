@@ -19,7 +19,7 @@ const AboutsUs = () => {
         <div className="aboutus__button">
           <h4>What we do</h4>
           <Link to="/about">
-            <BsArrowRightCircle size={30} />
+            <BsArrowRightCircle size={30} color="white" />
           </Link>
         </div>
       </div>

@@ -1,8 +1,6 @@
 import React from "react";
 import "../Styles/Hero.css";
-
 import homevideo from "../Assets/homevideo.webm";
-import NavBar from "./Navbar";
 
 function HeroBanner() {
   return (
