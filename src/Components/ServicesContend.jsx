@@ -17,7 +17,7 @@ const ServicesContend = () => {
     {
       title: "Digital Engineering and Transformation",
       image: datatransformation,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet, adipisci dolorum ipsam itaque dolor provident quisquam minus repellendus alias saepe debitis tempora delectus aut perferendis voluptatibus quibusdam iste consectetur.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet, adipisci dolorum ipsam itaque dolor provident quisquam minus repellendus alias saepe debitis tempora delectus aut perferendis voluptatibus quibusdam iste consectetur.", 
     },
     {
       title: "Cloud Engineering and Platforms",
@@ -33,13 +33,15 @@ const ServicesContend = () => {
   return (
     <>
       <div className="services__con__main">
+      <div className="services__con__main2">
+        
         <section className="services__con__section">
           <div className="services__con__container">
             <h1 className="services__con__heading">We Provide Services</h1>
             <div className="services__con__cards">
               {cards.map((card, i) => (
                 <div key={i} className="services__con__card">
-                  <img src={card.image} alt="" width={"10%"} />
+                  <img src={card.image} alt="" width="20%" />
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>
                 </div>
@@ -49,6 +51,7 @@ const ServicesContend = () => {
         </section>
       </div>
       <Services />
+      </div>
     </>
   );
 };

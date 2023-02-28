@@ -4,6 +4,7 @@ import "../Styles/contact.css";
 const ContactUs = () => {
   return (
     <>
+    <div className="contact__border"/>
       <div className="contact__main">
         <div className="contact__container">
           <main className="contact__row">

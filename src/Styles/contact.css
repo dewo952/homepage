@@ -1,7 +1,10 @@
+.contact__border{
+  border-top: .5px solid gray;
+}
+
 .contact__main{
   margin: 5rem;
   padding: 1rem;
-
 }
 
 .contact__container {

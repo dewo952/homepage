@@ -5,7 +5,7 @@ import serviceImg4 from "./Assets/servicesImg/apache.png";
 import serviceImg5 from "./Assets/servicesImg/ors.png";
 import serviceImg6 from "./Assets/servicesImg/syncsort.png";
 import serviceImg7 from "./Assets/servicesImg/softlayer.png";
-import serviceImg8 from "./Assets/servicesImg/solar.png";
+import serviceImg8 from "./Assets/servicesImg/equinix.png";
 
 // Services Platform
 export const services = [

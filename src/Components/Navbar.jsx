@@ -9,7 +9,9 @@ const NavBar = () => {
       <div className="nav__main">
         <nav className="nav__navbar">
           <div className="nav__logo">
-            <img src={logo} alt="" color="white" />
+            <Link to="/">
+              <img src={logo} alt="" color="white" />
+            </Link>
           </div>
           <ul className="nav__ul">
             <li>
