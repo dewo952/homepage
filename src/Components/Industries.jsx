@@ -8,7 +8,7 @@ import telecom from "../Assets/broadcast.png";
 const Industries = () => {
   const [cards] = useState([
     {
-      title: "Banking, Insurance and Financial Services",
+      title: "Banking, Insurance and Financial industries",
       image: bank,
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet, adipisci dolorum ipsam itaque dolor provident quisquam minus repellendus alias saepe debitis tempora delectus aut perferendis voluptatibus quibusdam iste consectetur.",
     },
@@ -35,13 +35,13 @@ const Industries = () => {
   ]);
   return (
     
-      <div className="services__con__main">
-        <section className="services__con__section">
-          <div className="services__con__container">
-            <h1 className="services__con__heading">Key Industries</h1>
-            <div className="services__con__cards">
+      <div className="industries__con__main">
+        <section className="industries__con__section">
+          <div className="industries__con__container">
+            <h1 className="industries__con__heading">Key Industries</h1>
+            <div className="industries__con__cards">
               {cards.map((card, i) => (
-                <div key={i} className="services__con__card">
+                <div key={i} className="industries__con__card">
                   <img src={card.image} alt="" width="20%" />
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>

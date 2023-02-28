@@ -156,6 +156,7 @@
   font-size: 18px;
   padding: 2px 0px;
   background-color: #2e2e2e;
+  border-radius: 4px;
   color: #ddd;
   border: none;
   border-bottom: 2px solid #666;
@@ -179,6 +180,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 .contact__inputGroup label {
   position: absolute;
+ margin-left: 1rem;
   left: 0;
   bottom: 4px;
   color: #888;
