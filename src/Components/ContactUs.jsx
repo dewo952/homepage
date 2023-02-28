@@ -4,7 +4,7 @@ import "../Styles/contact.css";
 const ContactUs = () => {
   return (
     <>
-    <div className="contact__border"/>
+      <div className="contact__border" />
       <div className="contact__main">
         <div className="contact__container">
           <main className="contact__row">
@@ -25,7 +25,7 @@ const ContactUs = () => {
                   </div>
                   <div className="contact__details">
                     <span>Phone</span>
-                    <span>+00 110 111 00</span>
+                    <span>+1-908-509-1522</span>
                   </div>
                 </div>
 
@@ -35,7 +35,7 @@ const ContactUs = () => {
                   </div>
                   <div className="contact__details">
                     <span>Email</span>
-                     <span>info@rgs-tech.com</span>
+                    <span>info@rgs-tech.com</span>
                   </div>
                 </div>
 
@@ -45,23 +45,23 @@ const ContactUs = () => {
                   </div>
                   <div className="contact__details">
                     <span>Location</span>
-                    <span>Hackettstown, New Jersey 07840</span>
+                    <span>
+                      Hackettstown, <br />
+                      New Jersey 07840
+                    </span>
                   </div>
                 </div>
               </div>
 
               <div className="contact__socialMedia">
-                <a href>
+                <a href="https://www.linkedin.com/company/rgs-tech/">
+                  <i className="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/RGSDigital/?view_public_for=280342016002143">
                   <i className="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href>
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
-                <a href>
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-                <a href>
-                  <i className="fa-brands fa-linkedin-in"></i>
+                <a href="mailto:info@rgs-tech.com">
+                  <i className="fa fa-envelope"></i>
                 </a>
               </div>
             </section>
